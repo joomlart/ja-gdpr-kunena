@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.6" type="plugin" group="jagdpr" method="upgrade">
+    <name>JA GDPR Kunena Plugin</name>
+    <author>Joomlart</author>
+    <creationDate>May 2018</creationDate>
+    <copyright>Copyright (C), J.O.O.M Solutions Co., Ltd. All Rights Reserved.</copyright>
+    <license>license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <authorEmail>webmaster@joomlart.com</authorEmail>
+    <authorUrl>https://www.joomlart.com</authorUrl>
+    <version>1.0.0</version>
+    <description>JA GDPR Kunena plugin is developed to support GDPR for Joomla</description>
+
+    <files>
+        <filename plugin="kunena">kunena.php</filename>
+        <folder>tmpl</folder>
+        <folder>forms</folder>
+        <folder>images</folder>
+        <filename>script.kunena.php</filename>
+    </files>
+    <updateservers>
+    <server type="extension">http://update.joomlart.com/service/tracking/j16/plg_jagdpr_kunena.xml</server>
+    </updateservers>
+    <scriptfile>script.kunena.php</scriptfile>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+				
+            </fieldset>
+        </fields>
+    </config>
+    <languages>
+        <language tag="en-GB">en-GB.plg_jagdpr_kunena.ini</language>
+        <language tag="en-GB">en-GB.plg_jagdpr_kunena.sys.ini</language>
+    </languages>
+</extension>

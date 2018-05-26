@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="gdpr">
+		<field name="jform[kunena][status]" janame="status" type="radio" class="btn-group btn-group-yesno" default="0" 
+		label="JAGDPR_KUNENA_STATUS" description="JAGDPR_KUNENA_STATUS_DESC">
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+
+		<field type="spacer" label="&lt;hr/&gt;" />
+
+		<field name="jform[kunena][anonymize_content]" janame="anonymize_content" type="radio" class="btn-group btn-group-yesno" default="0" 
+		label="JAGDPR_KUNENA_ANONYMIZE_TOPICS_CONTENT" description="JAGDPR_KUNENA_ANONYMIZE_TOPICS_CONTENT_DESC">
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+		
+		<field name="jform[kunena][delete_attachments]" janame="delete_attachments" type="radio" class="btn-group btn-group-yesno" default="0" 
+		label="JAGDPR_KUNENA_DELETE_ATTACHMENT" description="JAGDPR_KUNENA_DELETE_ATTACHMENT_DESC">
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+
+		<field type="spacer" label="&lt;hr/&gt;" />
+
+		<field name="jform[kunena][show_del_req_button]" janame="show_del_req_button" type="radio" class="btn-group btn-group-yesno" default="0" 
+		label="JAGDPR_KUNENA_SHOW_DELETE_REQUEST_BUTTON" description="JAGDPR_KUNENA_SHOW_DELETE_REQUEST_BUTTON_DESC">
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+	</fieldset>
+</form>

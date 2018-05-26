@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="gdpr">
+		<field name="jform[kunena][anonymous_text][jalanguage]" janame="anonymous_text" label="PLG_JAGDPR_JOOMLA_ANONYMOUS_TEXT" default="Removed by GDPR" description="PLG_JAGDPR_JOOMLA_ANONYMOUS_TEXT_DESC" type="text" />
+		<field name="jform[kunena][title][jalanguage]" janame="title" label="PLG_JAGDPR_JOOMLA_TITLE" description="PLG_JAGDPR_JOOMLA_TITLE_DESC" type="text" />
+		<field name="jform[kunena][header][jalanguage]" janame="header" label="PLG_JAGDPR_JOOMLA_HEADER" description="PLG_JAGDPR_JOOMLA_HEADER_DESC" type="textarea" />
+	</fieldset>
+</form>
